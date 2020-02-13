@@ -1,15 +1,8 @@
     <!-- Footer -->
     <footer class="cFooter text-white">
-        <div class="d-flex flex-row pr-5 pl-5 pt-3">
-            <div class="align-self-start">
-                <img src="img/logo.png" alt="">
-            </div>
-            <div class="pl-3 align-self-center">
-                <h5>BAAK</h5>
-                <p>Biro Administrasi Akademik dan Kemahasiswaan</p>
-            </div>
-            <div class="align-self-center ml-auto">
-                <p>Copyright © <?= date("Y") ?> MYP | All Rights Reserved</p>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="p-3">
+                <p class="m-0 text-center">Copyright © <?= date("Y") ?> <br>Tim BPTIK Universitas Ngudi Waluyo</p>
             </div>
         </div>
     </footer>

@@ -12,31 +12,32 @@
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Info Update
+                    Profil
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Sidang</a>
-                    <a class="dropdown-item" href="#">Informasi</a>
+                    <a class="dropdown-item" href="struktur.php">Struktur Organisasi</a>
+                    <a class="dropdown-item" href="staff.php">Staff</a>
                 </div>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Info Pelayanan
+                    Pelayanan
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">SIAKAD</a>
-                    <a class="dropdown-item" href="#">PMB</a>
-                    <a href="info_pelayanan.php" class="dropdown-item">Lainnya</a>
+                    <a class="dropdown-item" href="http://siakad.unw.ac.id/">SIAKAD</a>
+                    <a class="dropdown-item" href="http://pmb.unw.ac.id/">PMB</a>
+                    <a href="../../kemahasiswaan/" class="dropdown-item">Kemahasiswaan</a>
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Situs SAP</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Buku Pedoman</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Buku Pedoman
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Pedoman Mahasiswa</a>
+                    <a class="dropdown-item" href="#">Kalender Akademik</a>
+                    <a href="#" class="dropdown-item">Jadwal Kuliah</a>
+                </div>
             </li>
         </ul>
     </div>

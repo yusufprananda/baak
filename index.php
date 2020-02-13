@@ -14,20 +14,7 @@
     <section class="cContent my-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    <?php for ($i = 0; $i < 3; $i++) : ?>
-                        <h6>Jadwal Akademik TA 2020</h6>
-                        <hr>
-                        <ul>
-                            <?php for ($j = 0; $j < 5; $j++) : ?>
-                                <li>
-                                    <a href="#">Jadwal Ujian Utama</a>
-                                </li>
-                            <?php endfor; ?>
-                        </ul>
-                    <?php endfor; ?>
-                </div>
-                <div class="col-lg-6">
+                <div class="col-md-9">
                     <h4 class="text-center">Kalender Akademik TA 2020</h4>
                     <table class="table">
                         <thead class="thead-dark">
@@ -46,18 +33,8 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="col-lg-3">
-                    <?php for ($i = 0; $i < 3; $i++) : ?>
-                        <h6>Kalender Akademik TA 2020</h6>
-                        <hr>
-                        <ul>
-                            <?php for ($j = 0; $j < 5; $j++) : ?>
-                                <li>
-                                    <a href="#">Kalender akademik</a>
-                                </li>
-                            <?php endfor; ?>
-                        </ul>
-                    <?php endfor; ?>
+                <div class="col-md-3">
+                    <?php include "functions/sidebar.php" ?>
                 </div>
             </div>
         </div>
